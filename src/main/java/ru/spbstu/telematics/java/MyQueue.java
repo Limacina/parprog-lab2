@@ -102,17 +102,7 @@ public class MyQueue<K>{
     }
 
 
-    public static void main(String[] args){
-        MyQueue<String> x = new MyQueue<>();
-        Queue<String> y = new LinkedList<>();
-        for(int i = 0; i < 16; i++){
-            x.offer(String.valueOf(i));
-        }
-        Iterator<String> itr = x.iterator();
-        while(itr.hasNext()){
-            System.out.println(itr.next());
-        }
-    }
+    public static void main(String[] args){    }
 
 }
 
